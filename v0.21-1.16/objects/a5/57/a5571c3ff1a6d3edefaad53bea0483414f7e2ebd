@@ -1,0 +1,904 @@
+type = menu
+
+customization-meta {
+  identifier = Layouts
+  renderorder = foreground
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 307
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 128
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 34
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 134
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 159
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 100
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 92
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 116
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 97
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 70
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 55
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 76
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 290
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 191
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 151
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 190
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 92
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 205
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 266
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 84
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 218
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 103
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 123
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 146
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 38
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 200
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 112
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 291
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 34
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 256
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 246
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 170
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 310
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 246
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 259
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 222
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 414
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 132
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 354
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 159
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 354
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 84
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 259
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 339
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 289
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 311
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 240
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 294
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 89
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 337
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 181
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 319
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 147
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 306
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 15
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 333
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 59
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 298
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 134
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 242
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 194
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 255
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 201
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 166
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 514
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 95
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 394
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 78
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 438
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 80
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 458
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 139
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 427
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 191
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 422
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 255
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 396
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 312
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 364
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 245
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 351
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 304
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 332
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 223
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 396
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 222
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 604
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 77
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 577
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 267
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 523
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 312
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 430
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 312
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 475
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 309
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 485
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 242
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 537
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 191
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 569
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 102
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 479
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 71
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 609
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 217
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 558
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 336
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 602
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 329
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 521
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 250
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 574
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 173
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 497
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 176
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 25
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 69
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 128
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 81
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 187
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 79
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 314
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 72
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 274
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 142
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 223
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 221
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 620
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 282
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 616
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 153
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 320
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 336
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 84
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 265
+  scale = 30
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 213
+  slim = false
+  actionid = 661824b8-2806-4161-8acf-ba31db8b44841627264263559
+  action = addentity
+  y = 330
+  scale = 30
+  parrot = false
+}
+

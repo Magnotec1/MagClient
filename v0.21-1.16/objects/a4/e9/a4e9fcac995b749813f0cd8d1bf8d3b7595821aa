@@ -1,0 +1,19 @@
+#Sat Nov 20 18:47:26 MST 2021
+sunPathRotation=90.0
+vcloud_depth=20.0
+ssgr_enabled=true
+reflections_enabled=true
+motionblur_enabled=true
+vcloud_edge=32
+shadowfilter_hq=true
+vcloud_clip=2000.0
+custom_water_color=true
+vcloud_samples=20
+fog_start=0.9
+vcloud_alt=200.0
+shadowMapResolution=16384
+ssgr_samples=16
+fog_density=2.0
+ssgr_length=2.0
+ambientOcclusion_enabled=true
+vcloud_adaptive_samples=true
