@@ -1,0 +1,7 @@
+mumbleAutoLaunchOption = "ACCEPT"
+mumbleDimensionYAxisAdjust = 0.0
+voipClient = "MUMBLE"
+mumbleServerHost = "mumble-ru.cleanvoice.ru"
+mumbleServerPort = 64738
+mumbleServerPath = "MumbleLink"
+mumbleServerQuery = "Guest"
