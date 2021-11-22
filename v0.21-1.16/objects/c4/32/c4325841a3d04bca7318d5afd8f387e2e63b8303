@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_446
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  backgroundhovered = menutextures/cosmetics-20x20.png
+  label = 
+  loopbackgroundanimations = true
+  x = -1
+  width = 28
+  actionid = 754c7f7f-e2ff-48c9-8abc-8e1f9697073c1637365010541
+  action = addbutton
+  y = -3
+  backgroundnormal = menutextures/mag_client_clear.png
+  value = men
+  height = 27
+}
+

@@ -1,0 +1,4 @@
+#Wed Jul 07 12:11:23 MDT 2021
+AMBIENT_OCCLUSION=false
+shadowMapResolution=1536
+SOFT_SHADOWS=false
