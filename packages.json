@@ -5,14 +5,14 @@
       "title" : "Origins",
       "name" : "Origins 1.0",
       "version" : "Origins:1.0-1.16",
-      "location" : "Origins-1.0/origins-1.0.json",
+      "location" : "/Origins-1.0/origins-1.0.json",
       "priority" : 0
     },
     {
       "title" : "Mag Client 0.21-1.16",
       "name" : "Mag Client 0.21-1.16",
       "version" : "MagClient:0.21-1.16",
-      "location" : "v0.21-1.16/mag-client-0.21-1.16.json",
+      "location" : "/v0.21-1.16/mag-client-0.21-1.16.json",
       "priority" : 0
     }
   ]
