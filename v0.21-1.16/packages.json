@@ -2,10 +2,17 @@
   "minimumVersion" : 1,
   "packages" : [
     {
-      "title" : "Mag Client 0.21",
-      "name" : "Mag Client  0.21",
-      "version" : "0.21-1.16",
-      "location" : "mag-client-0.21.json",
+      "title" : "Origins",
+      "name" : "Origins 1.0",
+      "version" : "Origins:1.0-1.16",
+      "location" : "origins-1.0.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Mag Client 0.21-1.16",
+      "name" : "Mag Client 0.21-1.16",
+      "version" : "MagClient:0.21-1.16",
+      "location" : "mag-client-0.21-1.16.json",
       "priority" : 0
     }
   ]
