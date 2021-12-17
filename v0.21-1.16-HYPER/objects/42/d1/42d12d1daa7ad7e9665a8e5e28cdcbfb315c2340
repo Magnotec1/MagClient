@@ -1,0 +1,7 @@
+{
+  "button_text": "Servers Plus",
+  "servers": [ {
+    "ip": "mc.example.ip",
+    "name": "§aThis is an example server!"
+  } ]
+}
