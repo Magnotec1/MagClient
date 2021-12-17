@@ -1,0 +1,12 @@
+# No Annoying Settings Configuration File
+
+# Keep in mind that the 'disable' and 'set' configurations will only prevent/allow the mod to change the settings every start. If the config is already set, it will remain the same.
+
+disableAutoJump=true
+
+disableMusic=true
+
+setGuiScale=true
+guiScaleValue=3
+
+showSubtitles=false
