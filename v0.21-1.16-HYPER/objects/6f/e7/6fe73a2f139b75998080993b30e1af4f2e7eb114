@@ -1,0 +1,13 @@
+{
+	"enabled": true,
+	"colourRed": 0,
+	"colourGreen": 0,
+	"colourBlue": 0,
+	"alpha": 92,
+	"thickness": 2,
+	"blinkSpeed": 18,
+	"blinkAlpha": 142,
+	"disableDepthBuffer": false,
+	"rainbow": true,
+	"adjustBoundingBoxByLinkedBlocks": true
+}
