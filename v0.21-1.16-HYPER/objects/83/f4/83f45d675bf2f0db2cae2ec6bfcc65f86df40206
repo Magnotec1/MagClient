@@ -1,0 +1,6 @@
+{
+  "general": {
+    "enableDebugLog": false,
+    "enableVersionChecker": true
+  }
+}
