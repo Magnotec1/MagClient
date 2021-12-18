@@ -1,0 +1,92 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_443
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505250%
+  action = setbuttondescription
+  description = random sounds
+}
+
+customization {
+  identifier = %id=345154%
+  action = setbuttondescription
+  description = the main volume (what do you expect?)
+}
+
+customization {
+  identifier = %id=345250%
+  action = setbuttondescription
+  description = other people walking around 
+}
+
+customization {
+  identifier = %id=505226%
+  action = setbuttondescription
+  description = the cows and the villagers are annoying
+}
+
+customization {
+  identifier = %id=345226%
+  action = setbuttondescription
+  description = b b r a i n s 
+}
+
+customization {
+  identifier = %id=425298%
+  action = setbuttondescription
+  description = ooooooo cool subtitles
+}
+
+customization {
+  identifier = %id=505202%
+  action = setbuttondescription
+  description = people breaking into your bed? dont worry you can hear now
+}
+
+customization {
+  identifier = %id=345202%
+  action = setbuttondescription
+  description = the annoying rain sounds and thunder
+}
+
+customization {
+  identifier = %id=505274%
+  action = setbuttondescription
+  description = want to fix the sound? don't worry i gotcha
+}
+
+customization {
+  identifier = %id=505178%
+  action = setbuttondescription
+  description = so you can play ankha zone in skywars
+}
+
+customization {
+  identifier = %id=345178%
+  action = setbuttondescription
+  description = minecraft music is FIREEE
+}
+
+customization {
+  identifier = %id=345274%
+  action = setbuttondescription
+  description = where is this even used
+}
+
