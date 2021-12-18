@@ -1,0 +1,41 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398294%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504294%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374342%
+  action = hidebutton
+}
+
+customization {
+  path = menutextures/mag_client_v2.png
+  orientation = top-left
+  x = -22
+  width = 177
+  action = addtexture
+  actionid = 200ee2d2-06d9-4406-a1cd-d6bc318974171637339992923
+  y = 256
+  height = 100
+}
+
