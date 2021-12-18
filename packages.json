@@ -14,6 +14,13 @@
       "version" : "MagClient:0.21-1.16",
       "location" : "/MagClient/v0.21-1.16/mag-client-0.21-1.16.json",
       "priority" : 0
+    },
+    {
+      "title" : "Mag Client 0.21-1.16-HYPER",
+      "name" : "Mag Client 0.21-1.16-HYPER",
+      "version" : "0.21-1.16-HYPER",
+      "location" : "/MagClient/v0.21-1.16-HYPER/mag-client-0.21-1.16-hyper.json",
+      "priority" : 0
     }
   ]
 }
