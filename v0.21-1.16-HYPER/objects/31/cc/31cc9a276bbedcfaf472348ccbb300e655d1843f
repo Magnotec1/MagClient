@@ -1,0 +1,1616 @@
+[12:17:11] [main/WARN]: Warnings were found! 
+ - Mod 'Loading Timer' (loading-timer) recommends any version of mod cloth-config2, which is missing!
+	 - You must install any version of cloth-config2.
+[12:17:11] [main/INFO]: [FabricLoader] Loading 66 mods:
+	- advanced_runtime_resource_pack@0.4.3
+	- enhancedblockentities@0.4
+	- fabric@0.37.1+1.16
+	- fabric-api-base@0.3.0+c88702897d
+	- fabric-api-lookup-api-v1@1.2.0+6aebe11a7d
+	- fabric-biome-api-v1@3.1.10+3661eaa17d
+	- fabric-blockrenderlayer-v1@1.1.5+ca58154a7d
+	- fabric-command-api-v1@1.1.2+95b14da07d
+	- fabric-commands-v0@0.2.2+ca58154a7d
+	- fabric-containers-v0@0.1.11+9354966b7d
+	- fabric-content-registries-v0@0.2.1+ca58154a7d
+	- fabric-crash-report-info-v1@0.1.3+ca58154a7d
+	- fabric-dimensions-v1@2.0.6+61336ba97d
+	- fabric-entity-events-v1@1.1.0+c88702897d
+	- fabric-events-interaction-v0@0.4.3+f941baf07d
+	- fabric-events-lifecycle-v0@0.2.1+ca58154a7d
+	- fabric-game-rule-api-v1@1.0.6+ca58154a7d
+	- fabric-item-api-v1@1.2.1+ca58154a7d
+	- fabric-item-groups-v0@0.2.7+2868a2287d
+	- fabric-key-binding-api-v1@1.0.4+9354966b7d
+	- fabric-keybindings-v0@0.2.1+ca58154a7d
+	- fabric-lifecycle-events-v1@1.2.1+ca58154a7d
+	- fabric-loot-tables-v1@1.0.2+ca58154a7d
+	- fabric-mining-levels-v0@0.1.3+ca58154a7d
+	- fabric-models-v0@0.3.0+bc7a746f7d
+	- fabric-networking-api-v1@1.0.3+e3c9d0627d
+	- fabric-networking-blockentity-v0@0.2.8+ca58154a7d
+	- fabric-networking-v0@0.3.2+ca58154a7d
+	- fabric-object-builder-api-v1@1.9.5+c88702897d
+	- fabric-object-builders-v0@0.7.2+ca58154a7d
+	- fabric-particles-v1@0.2.4+ca58154a7d
+	- fabric-permissions-api-v0@0.1-SNAPSHOT
+	- fabric-registry-sync-v0@0.7.4+ca58154a7d
+	- fabric-renderer-api-v1@0.4.4+f3e8589e7d
+	- fabric-renderer-indigo@0.4.4+ca58154a7d
+	- fabric-renderer-registries-v1@2.3.0+2868a2287d
+	- fabric-rendering-data-attachment-v1@0.1.5+ca58154a7d
+	- fabric-rendering-fluids-v1@0.1.13+ca58154a7d
+	- fabric-rendering-v0@1.1.2+ca58154a7d
+	- fabric-rendering-v1@1.6.0+2868a2287d
+	- fabric-resource-loader-v0@0.4.7+6afaa13c7d
+	- fabric-screen-api-v1@1.0.0+c045166c7d
+	- fabric-screen-handler-api-v1@1.1.5+9354966b7d
+	- fabric-structure-api-v1@1.1.11+ca0ef93d7d
+	- fabric-tag-extensions-v0@1.1.1+ca58154a7d
+	- fabric-textures-v0@1.0.6+ca58154a7d
+	- fabric-tool-attribute-api-v1@1.2.7+8183d3957d
+	- fabric-transfer-api-v1@1.0.0+5f6b94517d
+	- fabricloader@0.11.6
+	- ferritecore@2.0.5
+	- hydrogen@0.2
+	- indium@1.0.0+mc1.16.5
+	- iris@1.1.0+rev.6ad325a
+	- java@8
+	- krypton@0.1.2
+	- lazydfu@0.1.2
+	- lithium@0.6.6
+	- loading-timer@1.4.3
+	- malilib@0.10.0-dev.21+arne.5
+	- minecraft@1.16.5
+	- reeses-sodium-options@1.0.4
+	- smoothboot@1.16.5-1.6.0
+	- sodium@0.2.0+IRIS3-rev.2c3e7cc
+	- sodium-extra@0.3.2
+	- spark@1.6.0
+	- starlight@fabric-1.0.0-RC1-59d1f21
+[12:17:11] [main/WARN]: Mod `starlight` (fabric-1.0.0-RC1-59d1f21) does not respect SemVer - comparison support is limited.
+[12:17:11] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/home/quinlan/.local/share/multimc/libraries/net/fabricmc/sponge-mixin/0.9.4+mixin.0.8.2/sponge-mixin-0.9.4+mixin.0.8.2.jar Service=Knot/Fabric Env=CLIENT
+[12:17:12] [main/INFO]: Loaded configuration file for Sodium: 24 options available, 0 override(s) found
+[12:17:12] [main/INFO]: Loaded configuration file for Lithium: 80 options available, 1 override(s) found
+[12:17:12] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[12:17:12] [main/WARN]: Mixin malte0811.ferritecore.mixin.dedupbakedquad.BakedQuadAccess is disabled as Hydrogen is installed
+[12:17:12] [main/WARN]: Mixin malte0811.ferritecore.mixin.dedupbakedquad.SimpleModelBuilderMixin is disabled as Hydrogen is installed
+[12:17:12] [main/WARN]: @Mixin target net/minecraft/class_1097$class_1099 is public in fabric-renderer-api-v1.mixins.json:client.WeightedBakedModelEntryAccessor and should be specified in value
+[12:17:12] [main/WARN]: @Mixin target net/minecraft/class_4970$class_4971$class_3752 is public in ferritecore.blockstatecache.mixin.json:BlockStateCacheAccess and should be specified in value
+[12:17:13] [main/WARN]: @Mixin target net/minecraft/class_3898$class_3208 is public in fabric-networking-api-v1.mixins.json:accessor.EntityTrackerAccessor and should be specified in value
+[12:17:13] [main/WARN]: Adding Mixin to disable Hydrogen's MixinState#postCreateWithTable
+[12:17:13] [main/WARN]: Trying to reflect-hack into the class-loader so we can define our own classes in an unrestricted loader...
+[12:17:13] [main/WARN]: ** The JVM might warn you with something nasty! **
+[12:17:13] [main/INFO]: Injecting class 'com.google.common.collect.HydrogenImmutableMapEntry' (url: jar:file:/mnt/nvme0n1/multimc/instances/1.16%20Hyperspeed%20Mode/.minecraft/mods/hydrogen-fabric-mc1.16.5-0.2.jar!/com/google/common/collect/HydrogenImmutableMapEntry.class)
+[12:17:13] [main/INFO]: Injecting class 'com.google.common.collect.HydrogenImmutableReferenceHashMap' (url: jar:file:/mnt/nvme0n1/multimc/instances/1.16%20Hyperspeed%20Mode/.minecraft/mods/hydrogen-fabric-mc1.16.5-0.2.jar!/com/google/common/collect/HydrogenImmutableReferenceHashMap.class)
+[12:17:13] [main/INFO]: Injecting class 'com.google.common.collect.HydrogenEntrySet' (url: jar:file:/mnt/nvme0n1/multimc/instances/1.16%20Hyperspeed%20Mode/.minecraft/mods/hydrogen-fabric-mc1.16.5-0.2.jar!/com/google/common/collect/HydrogenEntrySet.class)
+[12:17:13] [main/INFO]: Injecting class 'com.google.common.collect.HydrogenEntrySetIterator' (url: jar:file:/mnt/nvme0n1/multimc/instances/1.16%20Hyperspeed%20Mode/.minecraft/mods/hydrogen-fabric-mc1.16.5-0.2.jar!/com/google/common/collect/HydrogenEntrySetIterator.class)
+[12:17:13] [main/WARN]: Cloth Config Was Not Detected!!
+Because you don't have modmenu, this shouldn't be a problem, but its highly recommended that you install it.
+[12:17:13] [main/INFO]: I used the json to destroy the json
+[12:17:13] [main/INFO]: Smooth Boot config initialized
+[12:17:14] [main/INFO]: Using Java 8 class definer
+[12:17:17] [main/WARN]: Method overwrite conflict for method_22920 in mixins.iris.vertexformat.json:block_rendering.MixinBufferBuilder_SeparateAo, previously written by me.jellysquid.mods.sodium.mixin.features.buffer_builder.intrinsics.MixinBufferBuilder. Skipping method.
+[12:17:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:17:18] [main/INFO]: Setting user: Magnotec
+[12:17:18] [main/INFO]: Loading Timer initialized!
+[12:17:18] [main/INFO]: Minecraft took 5.541 seconds to initialize.
+[12:17:19] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[12:17:19] [main/INFO]: Shaders are disabled because no valid shaderpack is selected
+[12:17:19] [main/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[12:17:20] [main/INFO]: Krypton is now accelerating your Minecraft client's networking stack 🚀
+[12:17:20] [main/INFO]: Note that Krypton is most effective on servers, not the client.
+[12:17:20] [main/INFO]: Backend library: LWJGL version 3.2.2 build 10
+[12:17:21] [main/INFO]: Hardware information:
+[12:17:21] [main/INFO]: CPU: 8x AMD FX(tm)-8320 Eight-Core Processor
+[12:17:21] [main/INFO]: GPU: NVIDIA GeForce GTX 750 Ti/PCIe/SSE2 (Supports OpenGL 4.6.0 NVIDIA 470.86)
+[12:17:21] [main/INFO]: OS: Linux
+[12:17:22] [main/INFO]: Narrator library successfully loaded
+[12:17:22] [main/INFO]: Reloading ResourceManager: Default, Runtime Resource Packebe:pack, Fabric Mods (Fabric Renderer API (v1), Fabric Key Bindings (v0), Fabric Loader, Hydrogen, Loading Timer, Fabric Structure API (v1), Fabric Containers (v0), Lithium, Fabric Dimensions API (v1), Fabric Object Builder API (v1), Fabric Game Rule API (v1), Fabric API Base, Fabric Rendering Data Attachment (v1), Iris, Fabric Textures (v0), Fabric Rendering Fluids (v1), LazyDFU, Fabric BlockRenderLayer Registration (v1), Fabric Lifecycle Events (v1), Sodium, Fabric Renderer Registries (v1), Fabric Loot Tables (v1), Fabric API, Fabric Particles (v1), Fabric Networking (v0), Fabric API Lookup API (v1), Fabric Networking Block Entity (v0), Fabric Screen Handler API (v1), Fabric Command API (v1), Sodium Extra, Fabric Screen API (v1), Fabric Tool Attribute API (v1), Fabric Renderer - Indigo, Reese's Sodium Options, Smooth Boot, Fabric Crash Report Info (v1), Fabric Events Interaction (v0), Fabric Item API (v1), spark, Fabric Entity Events (v1), Fabric Rendering (v0), Fabric Rendering (v1), Fabric Key Binding API (v1), Fabric Resource Loader (v0), MaLiLib, Fabric Content Registries (v0), Fabric Tag Extensions (v0), Indium, Fabric Biome API (v1), Runtime Resource Pack, Enhanced Block Entities, Fabric Commands (v0), Fabric Registry Sync (v0), Fabric Mining Levels (v0), Fabric Networking API (v1), Fabric Events Lifecycle (v0), Krypton, Fabric Models (v0), Fabric Item Groups (v0), Fabric Object Builders (v0))
+[12:17:22] [main/INFO]: ARRP register - before vanilla
+[12:17:22] [main/INFO]: ARRP register - after vanilla
+[12:17:25] [main/INFO]: 'language' is an unsupported metadata key!
+[12:17:25] [main/INFO]: OpenAL initialized.
+[12:17:25] [main/INFO]: Sound engine started
+[12:17:25] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[12:17:25] [main/INFO]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[12:17:25] [main/INFO]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[12:17:25] [main/INFO]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[12:17:25] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[12:17:25] [main/INFO]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[12:17:25] [main/INFO]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[12:17:26] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[12:17:26] [main/INFO]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[12:17:26] [main/INFO]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[12:17:26] [main/INFO]: [[[ Deduplication statistics ]]]
+[12:17:26] [main/INFO]: Baked quad cache: DeduplicationCache ( 21019 de-duplicated, 61341 entries )
+[12:17:26] [main/INFO]: Resource Loading Time: 4.111 seconds
+[12:17:26] [main/INFO]: Minecraft took 13.204 seconds to fully load.
+[12:17:26] [main/INFO]: That is 7.663 seconds worth of raw loading time
+[12:17:32] [main/INFO]: Connecting to mc.hypixel.net., 25565
+[12:17:33] [Netty Epoll Client IO #0/WARN]: Received invalid channel identifier "BungeeCord" from connection net.minecraft.class_2535@3b407719
+net.minecraft.class_151: Non [a-z0-9/._-] character in path of location: minecraft:BungeeCord
+	at net.minecraft.class_2960.<init>(class_2960.java:41) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2960.<init>(class_2960.java:46) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.addId(AbstractChanneledNetworkAddon.java:198) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.receiveRegistration(AbstractChanneledNetworkAddon.java:157) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.handle(AbstractChanneledNetworkAddon.java:82) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.fabricmc.fabric.impl.networking.client.ClientPlayNetworkAddon.handle(ClientPlayNetworkAddon.java:89) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.minecraft.class_634.handler$bcm000$handleCustomPayload(class_634.java:2474) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11152(class_634.java) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2658.method_11457(class_2658.java:65) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2658.method_11054(class_2658.java:10) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2535.method_10759(class_2535.java:156) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2535.method_10770(class_2535.java:147) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2535.channelRead0(class_2535.java:52) [intermediary-minecraft-1.16.5-client.jar:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_302]
+[12:17:33] [main/INFO]: [CHAT] Couldn't connect you to that server, so you were put in the Bed Wars lobby!
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:34] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:34] [main/INFO]: Started 8 worker threads
+[12:17:34] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:17:35] [main/INFO]: [CHAT]                                      
+[12:17:35] [main/INFO]: [CHAT]                          
+[12:17:35] [main/WARN]: Unknown custom packed identifier: badlion:mods
+[12:17:35] [main/WARN]: Unable to play unknown soundEvent: minecraft:mob.rabbit.step
+[12:17:35] [main/WARN]: Unable to play unknown soundEvent: minecraft:
+[12:17:35] [main/INFO]: Reloading shaderpack on dimension change (null -> OVERWORLD)
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:17:35] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:17:51] [main/INFO]: [CHAT] 
+[12:17:51] [main/INFO]: [CHAT]              Select an Option or Sneak to Cancel.
+[12:17:51] [main/INFO]: [CHAT] 
+[12:17:56] [main/INFO]: [CHAT] §7You found §b§lCreeper Shopkeeper Skin §7in a Loot Chest§7!
+[12:17:56] [main/INFO]: [CHAT] §7You found §b§lEnderman Spray §7in a Loot Chest§7!
+[12:17:56] [main/INFO]: [CHAT] §7You found §5§lTemple Hut Island Topper §7in a Loot Chest§7!
+[12:17:56] [main/INFO]: [CHAT] 
+[12:17:56] [main/INFO]: [CHAT]              Select an Option or Sneak to Cancel.
+[12:17:56] [main/INFO]: [CHAT] 
+[12:17:59] [main/INFO]: [CHAT] You selected Temple Hut Island Topper!
+[12:18:04] [main/INFO]: [CHAT] You selected Creeper Shopkeeper Skin!
+[12:18:09] [main/INFO]: [CHAT] §7You found §a§lYear of the Dog Spray §7in a Loot Chest§7!
+[12:18:09] [main/INFO]: [CHAT] Since you already have it, you receive 500 coins.
+[12:18:09] [main/INFO]: [CHAT] §7You found §a§lDiamond Spray §7in a Loot Chest§7!
+[12:18:09] [main/INFO]: [CHAT] §7You found §b§lSparkle Glyph §7in a Loot Chest§7!
+[12:18:09] [main/INFO]: [CHAT] 
+[12:18:09] [main/INFO]: [CHAT]              Select an Option or Sneak to Cancel.
+[12:18:09] [main/INFO]: [CHAT] 
+[12:18:14] [main/INFO]: [CHAT] §b[MVP§2+§b] ok_ayo§f §6joined the lobby!
+[12:18:41] [main/INFO]: [CHAT] §7You found §a§lYes Glyph §7in a Loot Chest§7!
+[12:18:41] [main/INFO]: [CHAT] Since you already have it, you receive 500 coins.
+[12:18:41] [main/INFO]: [CHAT] §7You found §a§lLava Projectile Trail §7in a Loot Chest§7!
+[12:18:41] [main/INFO]: [CHAT] §7You found §b§lFaBOOlous Spray §7in a Loot Chest§7!
+[12:18:41] [main/INFO]: [CHAT] Since you already have it, you receive 1,000 coins.
+[12:18:41] [main/INFO]: [CHAT] 
+[12:18:41] [main/INFO]: [CHAT]              Select an Option or Sneak to Cancel.
+[12:18:41] [main/INFO]: [CHAT] 
+[12:18:48] [main/INFO]: [CHAT] You selected Lava Projectile Trail!
+[12:18:50] [main/INFO]: [CHAT] §b[MVP§f+§b] Angelochek§f §6joined the lobby!
+[12:18:54] [main/INFO]: [CHAT] §7You found §a§lLantern Spray §7in a Loot Chest§7!
+[12:18:54] [main/INFO]: [CHAT] §7You found §b§lCandles Island Topper §7in a Loot Chest§7!
+[12:18:54] [main/INFO]: [CHAT] Since you already have it, you receive 1,000 coins.
+[12:18:54] [main/INFO]: [CHAT] §7You found §a§lHypixel Logo Spray §7in a Loot Chest§7!
+[12:18:54] [main/INFO]: [CHAT] 
+[12:18:54] [main/INFO]: [CHAT]              Select an Option or Sneak to Cancel.
+[12:18:54] [main/INFO]: [CHAT] 
+[12:19:19] [main/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§9++§b] taasha§f §6joined the lobby! §a<§c<§b<
+[12:19:34] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] NotCyclo§f §6joined the lobby! §a<§c<§b<
+[12:19:41] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§d++§6] NotaBadPlayer§f §6joined the lobby! §a<§c<§b<
+[12:19:54] [main/INFO]: [CHAT] §b[MVP§a+§b] Hase_Heilig§f §6joined the lobby!
+[12:19:56] [main/INFO]: [CHAT] [VIP] AcEEgg found a ✰✰✰✰✰ Mystery Box!
+[12:20:06] [main/INFO]: [CHAT] §b[MVP§9+§b] fstarta§f §6joined the lobby!
+[12:20:06] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] xheavenize§f §6joined the lobby! §a<§c<§b<
+[12:20:07] [main/INFO]: [CHAT] You selected Lightning Strike!
+[12:20:12] [main/INFO]: [CHAT] §b[MVP§c+§b] SadonJancho§f §6joined the lobby!
+[12:20:12] [main/INFO]: [CHAT] §b[MVP§2+§b] CatalyticRhythm§f §6joined the lobby!
+[12:20:17] [main/INFO]: [CHAT] §b[MVP§e+§b] sqsr§f §6joined the lobby!
+[12:20:24] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] BOSSGAMERWOOSHI§f §6joined the lobby! §a<§c<§b<
+[12:20:33] [main/INFO]: [CHAT] §b[MVP§d+§b] Leeros201§f §6joined the lobby!
+[12:20:36] [main/INFO]: [CHAT] §b[MVP§a+§b] Texiis§f §6joined the lobby!
+[12:20:38] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] clmi§f §6joined the lobby! §a<§c<§b<
+[12:20:43] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] AleksanderGames§f §6joined the lobby! §a<§c<§b<
+[12:20:52] [main/INFO]: [CHAT] §b[MVP§d+§b] Zweph§f §6joined the lobby!
+[12:20:54] [main/INFO]: [CHAT] §b[MVP§a+§b] 0pqt§f §6joined the lobby!
+[12:20:54] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Chipdur§f §6joined the lobby! §a<§c<§b<
+[12:20:56] [main/INFO]: [CHAT] §b[MVP§c+§b] Lightify§f §6joined the lobby!
+[12:20:59] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] iTzBlack_pro_7w7§f §6joined the lobby! §a<§c<§b<
+[12:21:07] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§3++§6] ItzNout2012§f §6joined the lobby! §a<§c<§b<
+[12:21:15] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§6++§6] z1ng§f §6joined the lobby! §a<§c<§b<
+[12:21:30] [main/INFO]: [CHAT] §b[MVP§e+§b] wNox§f §6joined the lobby!
+[12:21:30] [main/INFO]: [CHAT] §b[MVP§d+§b] Xdoscar7§f §6joined the lobby!
+[12:21:31] [main/INFO]: [CHAT] §7[3✫] §7Korfi99§7: www
+[12:21:37] [main/INFO]: [CHAT] §b[MVP§c+§b] Medleys§f §6joined the lobby!
+[12:21:44] [main/INFO]: [CHAT] §b[MVP§c+§b] ImGero§f §6joined the lobby!
+[12:21:46] [main/INFO]: [CHAT] §b[MVP§3+§b] BlueEyedB§f §6joined the lobby!
+[12:21:58] [main/INFO]: [CHAT] §b[MVP§d+§b] Atreydes§f §6joined the lobby!
+[12:22:02] [main/INFO]: [CHAT] §b[MVP§f+§b] TilTan_§f §6joined the lobby!
+[12:22:11] [main/INFO]: [CHAT] §7[5✫] §7Yoranboer§7: Fn
+[12:22:18] [main/INFO]: [CHAT] §7[5✫] §7Yoranboer§7: Ja
+[12:22:19] [main/INFO]: [CHAT] §7[16✫] §a[VIP§6+§a] NightAddison§f: will sombody be my e-girl?
+[12:22:21] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Al1e§f §6joined the lobby! §a<§c<§b<
+[12:22:26] [main/INFO]: [CHAT] §b[MVP§9+§b] VTSam§f §6joined the lobby!
+[12:22:33] [main/INFO]: [CHAT] §7[20✫] §a[VIP] Magnotec§f: helpp
+[12:22:35] [main/INFO]: [CHAT] §b[MVP§6+§b] Ramagae§f §6joined the lobby!
+[12:22:36] [main/INFO]: [CHAT] §b[MVP§c+§b] ink0§f §6joined the lobby!
+[12:22:36] [main/INFO]: [CHAT] §7[20✫] §a[VIP] Magnotec§f: oh no
+[12:22:44] [main/INFO]: [CHAT] §7[1✫] §7MrBlueee§7: bella
+[12:22:46] [main/INFO]: [CHAT] §b[MVP§d+§b] HDHeroes§f §6joined the lobby!
+[12:22:47] [main/INFO]: [CHAT] §7[20✫] §a[VIP] Magnotec§f: i broke the cosmetics menu
+[12:22:59] [main/INFO]: [CHAT] ✦ Razor_Leo found an Epic Chicken Morph in a Mystery Box!
+[12:23:29] [main/INFO]: [CHAT] §b[MVP§a+§b] Nowflying§f §6joined the lobby!
+[12:23:29] [main/INFO]: [CHAT] §b[MVP§f+§b] Raynova§f §6joined the lobby!
+[12:23:29] [main/INFO]: [CHAT] [MVP+] Raynova found a ✰✰✰✰✰ Mystery Box!
+[12:23:35] [main/INFO]: [CHAT] §b[MVP§9+§b] DerAusreiser§f §6joined the lobby!
+[12:23:35] [main/INFO]: [CHAT] §b[MVP§3+§b] jobby2M§f §6joined the lobby!
+[12:23:36] [main/INFO]: [CHAT] §b[MVP§a+§b] oYfuu§f §6joined the lobby!
+[12:23:45] [main/INFO]: [CHAT] §b[MVP§a+§b] 2Trappyy§f §6joined the lobby!
+[12:23:45] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1498['Horse'/766745, l='ClientLevel', x=-31.50, y=71.00, z=-4.50]: old=0(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:23:45] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1498['Horse'/766745, l='ClientLevel', x=-31.50, y=71.00, z=-4.50]: old=0(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:23:45] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§f++§6] Lensule§f §6joined the lobby! §a<§c<§b<
+[12:23:59] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§d++§6] MaskedPMD§f §6joined the lobby! §a<§c<§b<
+[12:24:13] [main/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§5++§b] Democratical§f §6joined the lobby! §a<§c<§b<
+[12:24:18] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] nwerf§f §6joined the lobby! §a<§c<§b<
+[12:24:19] [main/INFO]: [CHAT] §b[MVP§a+§b] Supercube08§f §6joined the lobby!
+[12:24:33] [main/INFO]: Flushed changes to Minecraft configuration
+[12:24:36] [main/INFO]: [CHAT] §b[MVP§6+§b] EroHero§f §6joined the lobby!
+[12:24:57] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/768431, l='ClientLevel', x=-16.50, y=68.00, z=-1.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:57] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/768431, l='ClientLevel', x=-16.50, y=68.00, z=-1.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:57] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=-16.50, y=68.00, z=-1.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:57] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=-16.50, y=68.00, z=-1.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:57] [main/INFO]: [CHAT] §b[MVP§5+§b] Cuffless§f §6joined the lobby!
+[12:24:57] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=-16.50, y=68.00, z=-1.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:59] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/768441, l='ClientLevel', x=-18.50, y=69.00, z=1.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:59] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/768441, l='ClientLevel', x=-18.50, y=69.00, z=1.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:59] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768441, l='ClientLevel', x=-18.50, y=69.00, z=1.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:59] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768441, l='ClientLevel', x=-18.50, y=69.00, z=1.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:24:59] [main/INFO]: [CHAT] §b[MVP§a+§b] JugehrMinecraft§f §6joined the lobby!
+[12:24:59] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768441, l='ClientLevel', x=-18.50, y=69.00, z=1.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:05] [main/INFO]: [CHAT] §b[MVP§a+§b] eGirlCallie§f §6joined the lobby!
+[12:25:10] [main/INFO]: [CHAT] Guild > OneMinecraft joined.
+[12:25:11] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] f1se§f §6joined the lobby! §a<§c<§b<
+[12:25:13] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] Maximilian_Luis§f §6joined the lobby! §a<§c<§b<
+[12:25:15] [main/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§f++§b] xv12§f §6joined the lobby! §a<§c<§b<
+[12:25:18] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=5.63, y=67.00, z=0.88]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:18] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=5.63, y=67.00, z=0.88]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:23] [main/INFO]: [CHAT] §b[MVP§6+§b] Elevatorman1150§f §6joined the lobby!
+[12:25:29] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§4++§6] shanesegirl§f §6joined the lobby! §a<§c<§b<
+[12:25:37] [main/INFO]: [CHAT] You don't have enough coins to buy that!
+[12:25:48] [main/INFO]: [CHAT] §b[MVP§2+§b] DanyMagik§f §6joined the lobby!
+[12:25:48] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/769432, l='ClientLevel', x=-27.50, y=73.00, z=-7.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:48] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/769432, l='ClientLevel', x=-27.50, y=73.00, z=-7.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:48] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-27.50, y=73.00, z=-7.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:48] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-27.50, y=73.00, z=-7.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:48] [main/INFO]: [CHAT] §b[MVP§f+§b] fiizd§f §6joined the lobby!
+[12:25:48] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-27.50, y=73.00, z=-7.50]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:50] [main/INFO]: [CHAT] §b[MVP§8+§b] Bonku§f §6joined the lobby!
+[12:25:58] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=1.19, y=67.00, z=-14.34]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:25:58] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/768431, l='ClientLevel', x=1.19, y=67.00, z=-14.34]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:07] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§c++§6] liilyeva§f §6joined the lobby! §a<§c<§b<
+[12:26:07] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-5.09, y=67.00, z=-3.53]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:07] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-5.09, y=67.00, z=-3.53]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:11] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-5.16, y=67.00, z=-4.63]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:11] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-5.16, y=67.00, z=-4.63]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:12] [main/INFO]: [CHAT] §b[MVP§f+§b] pazax§f §6joined the lobby!
+[12:26:14] [main/INFO]: [CHAT] §b[MVP§a+§b] iLivly§f §6joined the lobby!
+[12:26:16] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-2.47, y=67.00, z=-3.16]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:16] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-2.47, y=67.00, z=-3.16]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:20] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-2.41, y=67.00, z=-3.69]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:20] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 18 on entity class_1451['Cat'/769432, l='ClientLevel', x=-2.41, y=67.00, z=-3.69]: old=1(class java.lang.Integer), new=false(class java.lang.Boolean)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:26:30] [main/INFO]: [CHAT] §b[MVP§c+§b] Cr01ss4nt§f §6joined the lobby!
+[12:26:46] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§1++§6] SixtoTheGreat§f §6joined the lobby! §a<§c<§b<
+[12:26:48] [main/INFO]: [CHAT] §7[4✫] §7Poppierandom§7: o
+[12:26:51] [main/INFO]: Stopping worker threads
+[12:26:52] [main/INFO]: Connecting to mc.hypixel.net., 25565
+[12:26:53] [Netty Epoll Client IO #1/WARN]: Received invalid channel identifier "BungeeCord" from connection net.minecraft.class_2535@5cb9c3eb
+net.minecraft.class_151: Non [a-z0-9/._-] character in path of location: minecraft:BungeeCord
+	at net.minecraft.class_2960.<init>(class_2960.java:41) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2960.<init>(class_2960.java:46) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.addId(AbstractChanneledNetworkAddon.java:198) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.receiveRegistration(AbstractChanneledNetworkAddon.java:157) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.fabricmc.fabric.impl.networking.AbstractChanneledNetworkAddon.handle(AbstractChanneledNetworkAddon.java:82) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.fabricmc.fabric.impl.networking.client.ClientPlayNetworkAddon.handle(ClientPlayNetworkAddon.java:89) [fa6d705c-d070-470a-9cbb-3ba5ecd66a42.jar:?]
+	at net.minecraft.class_634.handler$bcm000$handleCustomPayload(class_634.java:2474) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11152(class_634.java) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2658.method_11457(class_2658.java:65) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2658.method_11054(class_2658.java:10) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2535.method_10759(class_2535.java:156) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2535.method_10770(class_2535.java:147) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2535.channelRead0(class_2535.java:52) [intermediary-minecraft-1.16.5-client.jar:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:310) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:284) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:808) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-all-4.1.25.Final.jar:4.1.25.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_302]
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_ModelViewMatrix
+[12:26:53] [main/INFO]: [STDERR]: No uniform exists with name: u_NormalMatrix
+[12:26:53] [main/INFO]: Started 8 worker threads
+[12:26:53] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:26:53] [main/INFO]: [CHAT]                                      
+[12:26:53] [main/INFO]: [CHAT]                          
+[12:26:53] [main/WARN]: Unknown custom packed identifier: badlion:mods
+[12:26:54] [main/INFO]: [CHAT] Guild > OneMinecraft joined.
+[12:27:02] [main/INFO]: [CHAT] §b[MVP§c+§b] PinappleCreeper§f §6joined the lobby!
+[12:27:09] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] okgoosey§f §6joined the lobby! §a<§c<§b<
+[12:27:13] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] Syxth§f §6joined the lobby! §a<§c<§b<
+[12:27:17] [main/INFO]: [CHAT] §b[MVP§a+§b] Blqzeify§f §6joined the lobby!
+[12:27:18] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§1++§6] johnush§f §6joined the lobby! §a<§c<§b<
+[12:27:19] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] Pawrrot§f §6joined the lobby! §a<§c<§b<
+[12:27:20] [main/INFO]: [CHAT] §b[MVP§d+§b] noti75§f §6joined the lobby!
+[12:27:25] [main/INFO]: [CHAT] §b[MVP§6+§b] N6QX§f §6joined the lobby!
+[12:27:29] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/1919829, l='ClientLevel', x=-21.50, y=70.00, z=-4.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:27:29] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 16 on entity class_3701['Ocelot'/1919829, l='ClientLevel', x=-21.50, y=70.00, z=-4.50]: old=false(class java.lang.Boolean), new=0(class java.lang.Byte)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:27:29] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 20 on entity class_1451['Cat'/1919829, l='ClientLevel', x=-21.50, y=70.00, z=-4.50]: old=false(class java.lang.Boolean), new=14(class java.lang.Integer)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:27:29] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 20 on entity class_1451['Cat'/1919829, l='ClientLevel', x=-21.50, y=70.00, z=-4.50]: old=false(class java.lang.Boolean), new=14(class java.lang.Integer)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:27:29] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§8++§6] fulq§f §6joined the lobby! §a<§c<§b<
+[12:27:29] [main/FATAL]: Error executing task on Client
+java.lang.IllegalStateException: Invalid entity data item type for field 20 on entity class_1451['Lv023 ImSingleHMU'/1919829, l='ClientLevel', x=-21.50, y=70.00, z=-4.50]: old=false(class java.lang.Boolean), new=14(class java.lang.Integer)
+	at net.minecraft.class_2945.method_12785(class_2945.java:241) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2945.method_12779(class_2945.java:228) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_634.method_11093(class_634.java:568) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11808(class_2739.java:42) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2739.method_11054(class_2739.java:11) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_2600.method_11072(class_2600.java:21) ~[intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_18859(class_1255.java:144) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_16075(class_1255.java:118) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_1255.method_5383(class_1255.java:103) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1523(class_310.java:1015) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.class_310.method_1514(class_310.java:681) [intermediary-minecraft-1.16.5-client.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:215) [intermediary-minecraft-1.16.5-client.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153) [fabric-loader-0.11.6.jar:?]
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28) [fabric-loader-0.11.6.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_302]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_302]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_302]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_302]
+	at org.multimc.onesix.OneSixLauncher.launchWithMainClass(OneSixLauncher.java:210) [NewLaunch.jar:?]
+	at org.multimc.onesix.OneSixLauncher.launch(OneSixLauncher.java:245) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.listen(EntryPoint.java:143) [NewLaunch.jar:?]
+	at org.multimc.EntryPoint.main(EntryPoint.java:34) [NewLaunch.jar:?]
+[12:27:34] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§0++§6] Irritado§f §6joined the lobby! §a<§c<§b<
+[12:27:36] [main/INFO]: [CHAT] You purchased Green Star!
+[12:27:42] [main/INFO]: [CHAT] §b[MVP§f+§b] Feliks_Raih§f §6joined the lobby!
+[12:27:42] [main/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§d++§b] ceazer2005§f §6joined the lobby! §a<§c<§b<
+[12:28:02] [main/INFO]: [CHAT] Mcdonaldsente found a ✰✰✰✰✰ Mystery Box!
+[12:28:03] [main/INFO]: [CHAT] Guild > OneMinecraft left.
+[12:28:06] [main/INFO]: [CHAT] Guild > OneMinecraft joined.
+[12:28:08] [main/INFO]: [CHAT] §b[MVP§6+§b] ZestosYt§f §6joined the lobby!
+[12:28:17] [main/INFO]: [CHAT] §b[MVP§0+§b] Zethia§f §6joined the lobby!
+[12:28:21] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§d++§6] Loudiv§f §6joined the lobby! §a<§c<§b<
+[12:28:26] [main/INFO]: [CHAT] §b[MVP§6+§b] MineKraft_boy09§f §6joined the lobby!
+[12:28:46] [main/INFO]: [CHAT] §b[MVP§d+§b] SimpChester§f §6joined the lobby!
+[12:28:59] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] qfk_§f §6joined the lobby! §a<§c<§b<
+[12:29:08] [main/INFO]: [CHAT] §b[MVP§2+§b] Badmarl0n§f §6joined the lobby!
+[12:29:10] [main/INFO]: [CHAT] §b[MVP§f+§b] CATBOYSOTSI§f §6joined the lobby!
+[12:29:18] [main/INFO]: [CHAT] §b[MVP§6+§b] Shulker2311§f §6joined the lobby!
+[12:29:27] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§2++§6] ItzLausi§f §6joined the lobby! §a<§c<§b<
+[12:29:34] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§4++§6] Committent§f §6joined the lobby! §a<§c<§b<
+[12:29:40] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§9++§6] Linix_SyNc§f §6joined the lobby! §a<§c<§b<
+[12:29:43] [main/INFO]: [CHAT]  §b>§c>§a>§r §b[MVP§4++§b] Aleext§f §6joined the lobby! §a<§c<§b<
+[12:29:44] [main/INFO]: [CHAT] Guild > Luchito_101 joined.
+[12:30:05] [main/INFO]: [CHAT] [VIP] Skillstrom found a ✰✰✰✰✰ Mystery Box!
+[12:30:12] [main/INFO]: [CHAT] §b[MVP§a+§b] fred40§f §6joined the lobby!
+[12:30:27] [main/INFO]: [CHAT] §b[MVP§2+§b] Daufin§f §6joined the lobby!
+[12:30:28] [main/INFO]: [CHAT] §b[MVP§2+§b] CoasterSimuCraft§f §6joined the lobby!
+[12:30:30] [main/INFO]: [CHAT] §b[MVP§c+§b] mabbis§f §6joined the lobby!
+[12:30:34] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§1++§6] Noon§f §6joined the lobby! §a<§c<§b<
+[12:30:35] [main/INFO]: [CHAT] §b[MVP§6+§b] N6QX§f §6joined the lobby!
+[12:30:36] [main/INFO]: [CHAT] §b[MVP§2+§b] eSmug§f §6joined the lobby!
+[12:30:51] [main/INFO]: [CHAT] §b[MVP§d+§b] Tomoli75§f §6joined the lobby!
+[12:30:56] [main/INFO]: [CHAT]  §b>§c>§a>§r §6[MVP§a++§6] HugoIsLost§f §6joined the lobby! §a<§c<§b<
+[12:30:57] [main/INFO]: [CHAT] §b[MVP§c+§b] Mandallo312§f §6joined the lobby!
+[12:31:04] [main/INFO]: [CHAT] §b[MVP§a+§b] JoelNG§f §6joined the lobby!
+[12:31:04] [main/INFO]: [CHAT] §b[MVP§a+§b] suuba§f §6joined the lobby!
+[12:31:08] [main/INFO]: [CHAT] §b[MVP§f+§b] Gametris§f §6joined the lobby!
+[12:31:17] [main/INFO]: [CHAT] §b[MVP§f+§b] inceled§f §6joined the lobby!
+[12:31:42] [main/INFO]: [CHAT] §b[MVP§e+§b] CreeperWind§f §6joined the lobby!
+[12:31:43] [main/INFO]: [CHAT] §7[64✫] §b[MVP§e+§b] CreeperWind§f: New level 5 Guild /g join Wind Gamers to join! <3 Tag [GAMER]
+[12:31:45] [main/INFO]: [CHAT] §b[MVP§f+§b] I1lI§f §6joined the lobby!
+[12:31:55] [main/INFO]: [CHAT] §b[MVP§e+§b] ZooShoo§f §6joined the lobby!
+[12:32:51] [main/INFO]: [CHAT] YogiHD found a ✰✰✰✰✰ Mystery Box!
+[12:32:57] [main/INFO]: [CHAT] §b[MVP§c+§b] Sandoe__§f §6joined the lobby!
+[12:33:10] [main/INFO]: Stopping worker threads
+[12:33:11] [main/INFO]: Stopping!
+[12:33:11] [main/INFO]: closing rrp ebe:pack

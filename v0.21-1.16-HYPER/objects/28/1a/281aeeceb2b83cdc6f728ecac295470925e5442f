@@ -1,0 +1,118 @@
+type = menu
+
+customization-meta {
+  identifier = mag_client_credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 289
+  actionid = f295faf0-41dd-4bca-b24c-d7145c66025a1637387306715
+  action = addtext
+  y = 194
+  scale = 1.0
+  alignment = left
+  value = Credits:
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 260
+  actionid = 1bca3e67-8936-4da5-b2b3-a9e58c284ce01637387336825
+  action = addtext
+  y = 225
+  scale = 1.0
+  alignment = left
+  value = Main Creator: Magnotec
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 262
+  actionid = a5ea3596-fb27-4495-80d5-200b1020f1631637387350073
+  action = addtext
+  y = 239
+  scale = 1.0
+  alignment = left
+  value = Installer: NotBrysonXD
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 219
+  actionid = 8b2faf58-1338-47f1-8016-2b4ba97a39151637387371649
+  action = addtext
+  y = 256
+  scale = 1.0
+  alignment = left
+  value = Beta Testers: OnlyTheJester, TurnDitoff
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 225
+  actionid = 6c19c8c2-64cc-4c69-a6d3-a583651fc8831637387402900
+  action = addtext
+  y = 275
+  scale = 1.0
+  alignment = left
+  value = Inspiration: Lunar Client, Badlion Client
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 202
+  actionid = 6896c0e6-82f3-458b-ac6f-5048023dcab21637387510065
+  action = addtext
+  y = 294
+  scale = 1.0
+  alignment = left
+  value = Feedback: thassan2, MasonTheWaffle, salmonella
+}
+
+customization {
+  path = menutextures/mag_client_v2.png
+  orientation = top-left
+  x = 174
+  width = 289
+  action = addtexture
+  actionid = ba38be7c-6a50-4225-ad0b-fbbc078e26041637387549140
+  y = 64
+  height = 167
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  x = 270
+  width = 100
+  actionid = 35219f2f-f033-4a4d-8296-d30f85f3c75e1637433464397
+  action = addbutton
+  y = 315
+  label = Done
+  value = 
+  height = 20
+}
+

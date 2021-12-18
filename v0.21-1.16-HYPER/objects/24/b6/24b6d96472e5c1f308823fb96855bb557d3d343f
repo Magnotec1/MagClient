@@ -1,0 +1,357 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1016
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400262%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400262%
+  orientation = top-left
+  x = 220
+  action = movebutton
+  y = 107
+}
+
+customization {
+  identifier = %id=400262%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400262%
+  action = setbuttondescription
+  description = Continue where you left off?
+}
+
+customization {
+  identifier = %id=400310%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400358%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = top-centered
+  x = -103
+  action = movebutton
+  y = 246
+}
+
+customization {
+  identifier = %id=400358%
+  width = 45
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400358%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttondescription
+  description = View all the interesting things in Mag Client
+}
+
+customization {
+  identifier = %id=502262%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=502262%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502262%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menutextures/rectangle_ui_darkened_wide.png
+  backgroundnormal = menutextures/rectangle_ui_wide.png
+}
+
+customization {
+  identifier = %id=502262%
+  action = setbuttondescription
+  description = No friends? Don't worry i gotcha
+}
+
+customization {
+  identifier = %id=604394%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400286%
+  orientation = mid-centered
+  x = -101
+  action = movebutton
+  y = 8
+}
+
+customization {
+  identifier = %id=400286%
+  width = 199
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400286%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menutextures/rectangle_ui_darkened_wide.png
+  backgroundnormal = menutextures/rectangle_ui_wide.png
+}
+
+customization {
+  identifier = %id=400286%
+  action = setbuttondescription
+  description = You don't have friends wdym
+}
+
+customization {
+  identifier = %id=400334%
+  orientation = bottom-left
+  x = 293
+  action = movebutton
+  y = -136
+}
+
+customization {
+  identifier = %id=400334%
+  width = 19
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400334%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menutextures/rectangle_ui_darkened.png
+  backgroundnormal = menutextures/rectangle_ui.png
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttondescription
+  description = Replays
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = bottom-centered
+  x = -47
+  action = movebutton
+  y = -136
+}
+
+customization {
+  identifier = %id=400394%
+  width = 19
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=400394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menutextures/rectangle_ui_darkened.png
+  backgroundnormal = menutextures/rectangle_ui.png
+}
+
+customization {
+  identifier = %id=400394%
+  action = setbuttondescription
+  description = Settings
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = bottom-centered
+  x = 13
+  action = movebutton
+  y = -136
+}
+
+customization {
+  identifier = %id=502394%
+  width = 19
+  action = resizebutton
+  height = 18
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502394%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = menutextures/rectangle_ui_darkened.png
+  backgroundnormal = menutextures/rectangle_ui.png
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttondescription
+  description = Rage Quit?
+}
+
+customization {
+  identifier = %id=376394%
+  action = hidebutton
+}
+
+customization {
+  path = menutextures/mag_client_v2.png
+  orientation = top-left
+  x = 196
+  width = 280
+  action = addtexture
+  actionid = ff3b7062-1340-4bee-85b4-63231b137e4b1637287285245
+  y = 24
+  height = 156
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 0
+  actionid = 4616edf7-5460-4bca-b400-be9cb838b0481637287836520
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = Mag Client(TM) Version: 0.21-1.16
+}
+
+customization {
+  path = menutextures/cog-20x20.png
+  orientation = bottom-centered
+  x = -43
+  width = 11
+  action = addtexture
+  actionid = 4a48acfa-c429-406e-bfc2-01e6785b3dc61637346845923
+  y = -133
+  height = 11
+}
+
+customization {
+  path = menutextures/exit-17x17.png
+  orientation = bottom-centered
+  x = 17
+  width = 11
+  action = addtexture
+  actionid = 2363601d-8d85-4183-a8eb-a2d513547af91637346983841
+  y = -133
+  height = 11
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = opencustomgui
+  backgroundhovered = menutextures/rectangle_ui_darkened.png
+  description = Credits
+  label = 
+  loopbackgroundanimations = true
+  x = -7
+  width = 19
+  actionid = d76a9e6d-b8e3-4f4b-bdf4-4283df7ed9e91637386726177
+  action = addbutton
+  y = -136
+  backgroundnormal = menutextures/rectangle_ui.png
+  value = mag_client_credits
+  height = 18
+}
+
+customization {
+  path = menutextures/globe-20x20.png
+  orientation = bottom-centered
+  x = -3
+  width = 11
+  action = addtexture
+  actionid = 637da72d-d50a-4647-bb7e-8d1c1cb2c5151637386807800
+  y = -133
+  height = 11
+}
+
+customization {
+  path = menutextures/camera-20x20.png
+  orientation = bottom-centered
+  x = -23
+  width = 11
+  action = addtexture
+  actionid = 87f243ff-3b55-4538-bc09-e7cce120c9ad1637386844501
+  y = -133
+  height = 11
+}
+
