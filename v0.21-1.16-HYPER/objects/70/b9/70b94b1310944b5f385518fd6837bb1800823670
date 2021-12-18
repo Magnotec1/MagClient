@@ -1,0 +1,80 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_440
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400262%
+  action = setbuttondescription
+  description = your fake cape
+}
+
+customization {
+  identifier = %id=505190%
+  action = setbuttondescription
+  description = its the same as the left one but facing the other way
+}
+
+customization {
+  identifier = %id=345190%
+  action = setbuttondescription
+  description = your poo stained sleeves
+}
+
+customization {
+  identifier = %id=505166%
+  action = setbuttondescription
+  description = supreme drip
+}
+
+customization {
+  identifier = %id=345166%
+  action = setbuttondescription
+  description = want a cool cape? too bad
+}
+
+customization {
+  identifier = %id=505238%
+  action = setbuttondescription
+  description = do NOT set this to left it looks awful
+}
+
+customization {
+  identifier = %id=345238%
+  action = setbuttondescription
+  description = 1800s drip
+}
+
+customization {
+  identifier = %id=400286%
+  action = setbuttondescription
+  description = bye wimp
+}
+
+customization {
+  identifier = %id=505214%
+  action = setbuttondescription
+  description = there is piss dripping down your leg. you just pissed yourself
+}
+
+customization {
+  identifier = %id=345214%
+  action = setbuttondescription
+  description = theres pee dripping down your leg. you just pissed yourself
+}
+

@@ -1,0 +1,27 @@
+{
+  "general": {
+    "apiKey": "",
+    "bars": {
+      "enableBars": true
+    },
+    "lockedSlots": []
+  },
+  "locations": {
+    "dungeons": {
+      "enableMap": true,
+      "solveThreeWeirdos": false
+    },
+    "dwarvenMines": {
+      "enableDrillFuel": true,
+      "solveFetchur": false,
+      "solvePuzzler": false
+    }
+  },
+  "messages": {
+    "hideAbility": false,
+    "hideHeal": false,
+    "hideAOTE": false,
+    "hideImplosion": false,
+    "hideMoltenWave": false
+  }
+}

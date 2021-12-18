@@ -1,0 +1,20 @@
+type = menu
+
+customization-meta {
+  identifier = net.optifine.gui.GuiPerformanceSettingsOF
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+

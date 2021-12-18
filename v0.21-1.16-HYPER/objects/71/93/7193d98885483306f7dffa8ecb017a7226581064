@@ -1,0 +1,44 @@
+type = menu
+
+customization-meta {
+  identifier = com.blamejared.controlling.client.gui.ControlsSettingsGuiNew
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505971%
+  action = setbuttondescription
+  description = good riddance
+}
+
+customization {
+  identifier = %id=34518%
+  action = setbuttondescription
+  description = mhm you want 200% sensitivity you horrible human being
+}
+
+customization {
+  identifier = %id=50518%
+  action = setbuttondescription
+  description = what the fuck is this
+}
+
+customization {
+  identifier = %id=345971%
+  action = setbuttondescription
+  description = NO DONT RESET IT 
+}
+
