@@ -1,0 +1,9 @@
+{
+  "scaleFactor": 1.0,
+  "upscaleAlgorithm": "NEAREST",
+  "downscaleAlgorithm": "LINEAR",
+  "overrideScreenshotScale": true,
+  "screenshotWidth": 3840,
+  "screenshotHeight": 2160,
+  "screenshotFramebufferAlwaysAllocated": false
+}

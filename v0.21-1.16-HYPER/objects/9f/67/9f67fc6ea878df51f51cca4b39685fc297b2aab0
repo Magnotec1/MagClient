@@ -1,0 +1,113 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_429
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menutextures/mag_client_load_back.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  baseheight = 1016
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  description = the mods that make up Mag Client
+  label = Mods (%totalmods% Mods Active)
+  loopbackgroundanimations = true
+  x = 256
+  width = 129
+  actionid = faecc87d-8a11-454d-a1f2-1d1df302f5ca1637347367191
+  action = addbutton
+  y = 197
+  value = com.terraformersmc.modmenu.gui.ModsScreen
+  height = 20
+}
+
+customization {
+  identifier = %id=505154%
+  action = setbuttondescription
+  description = tf is realms
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttondescription
+  description = Have a poo computer?  dont worry i gotcha
+}
+
+customization {
+  identifier = %id=345280%
+  action = setbuttondescription
+  description = want better textures? dont worry i gotcha
+}
+
+customization {
+  identifier = %id=345154%
+  action = setbuttondescription
+  description = the best fov is 95. anything else is wrong.
+}
+
+customization {
+  identifier = %id=505232%
+  action = setbuttondescription
+  description = want weird controls? dont worry i gotcha
+}
+
+customization {
+  identifier = %id=505280%
+  action = setbuttondescription
+  description = pov: you are disabled
+}
+
+customization {
+  identifier = %id=400334%
+  action = setbuttondescription
+  description = bye scammer toes
+}
+
+customization {
+  identifier = %id=345208%
+  action = setbuttondescription
+  description = why are you stealing children's skins
+}
+
+customization {
+  identifier = %id=345256%
+  action = setbuttondescription
+  description = woooah you know more than one language?
+}
+
+customization {
+  identifier = %id=505208%
+  action = setbuttondescription
+  description = want to turn down the music? dont worry i gotcha
+}
+
+customization {
+  identifier = %id=505256%
+  action = setbuttondescription
+  description = why would you need this (you don't have friends)
+}
+
