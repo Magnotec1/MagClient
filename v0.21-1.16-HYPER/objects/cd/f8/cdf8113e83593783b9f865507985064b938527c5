@@ -131,10 +131,15 @@ customization {
 
 customization {
   identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400334%
   orientation = bottom-left
-  x = 219
+  x = 213
   action = movebutton
-  y = -188
+  y = -190
 }
 
 customization {
@@ -173,11 +178,11 @@ customization {
 customization {
   path = menutextures/mag_client_v2.png
   orientation = top-left
-  x = 203
+  x = 188
   width = 280
   action = addtexture
   actionid = ff3b7062-1340-4bee-85b4-63231b137e4b1637287285245
-  y = 21
+  y = 23
   height = 156
 }
 
@@ -244,3 +249,19 @@ customization {
   height = 11
 }
 
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  backgroundhovered = menutextures/rectangle_ui_darkened_wide.png
+  label = Multiplayer
+  loopbackgroundanimations = true
+  x = 219
+  width = 199
+  actionid = 5cf4b1d2-1288-4b35-9428-a32dbe8a57451639858733925
+  action = addbutton
+  y = 154
+  backgroundnormal = menutextures/rectangle_ui_wide.png
+  value = net.minecraft.class_500
+  height = 20
+}
