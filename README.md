@@ -11,4 +11,5 @@ Use full version at your own risk.
 Download the launcher from the releases page.
 
 Discord: https://discord.gg/yypQbQfAjj
+
 Youtube: https://www.youtube.com/channel/UCDXIh6MJI9W60WtIYuZGlTQ
