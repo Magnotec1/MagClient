@@ -9,4 +9,10 @@ Use full version at your own risk.
 
 Download the launcher from the releases page.
 
-Discord: https://discord.gg/yypQbQfAjj
+Discord: https://discord.gg/yypQbQfA
+
+
+Installation:
+
+Go to releases, download the jar file. Download Java 16, and run the jar file.
+Enjoy!
